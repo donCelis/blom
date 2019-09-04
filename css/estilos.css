@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	color: white;
+}
+.inicio{
+	background: url('../imgs/bgInicio.png') #1a0d25 center repeat;
+	background-size: cover;
+	text-align: center;
+}
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+}
+.inicio header{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0;
+}
+.logo{
+	text-transform: uppercase;
+	font-size: 2em;
+}
+.menu a{
+	color: white;
+	text-transform: uppercase;
+	margin: 0 5px;
+	padding: 5px;
+	font-size: 0.8em;
+}
+.menu a:hover{
+	color: #743d9e;
+}
+.contInicio{
+	padding: 150px 0 100px;
+}
+.contInicio h2{
+	text-transform: uppercase;
+	font-size: 3em;
+	font-weight: 900;
+}
+.contInicio h2 span{
+	color: #9a40dc;
+}
+.contInicio p{
+	font-size: 1em;
+	margin: 40px 0;
+}
+.btn button{
+	text-transform: uppercase;
+	font-size: 1em;
+	padding: 15px 0;
+	margin: 12px;
+	min-width: 180px;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.btn button:first-child{
+	background: rgba(0,0,0,0);
+	border: 1px solid white;
+}
+.btn button:last-child{
+	background: #9a40dc;
+	border: 1px solid #9a40dc;
+}
+.lineas{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 0;
+}
+.lineas li{
+	width: 60px;
+	height: 5px;
+	background: gray;
+	margin: 0 6px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.lineas li:hover{
+	background: #9a40dc;
+}
+.iconMenu{
+	display: none;
+}
+/*Mobile*/
+@media only screen and (max-width: 768px){
+	.menu{
+		display: none;
+	}
+	.iconMenu{
+		display: block;
+		width: 35px;
+		cursor: pointer;
+	}
+	.iconMenu li{
+		width: 100%;
+		height: 4px;
+		margin: 5px 0;
+		background: white;
+		border-radius: 5px;
+	}
+	.contInicio{
+		padding: 50px 0;
+	}
+	.contInicio p{
+		font-size: 1.2em;
+	}
+}

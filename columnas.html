@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<title>Columnas</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			border: 0;
+			list-style: none;
+			box-sizing: border-box;
+		}
+		.padre{
+			background: #2c3e50;
+		}
+		.padre li{
+			/*flex-basis: 25%;
+			height: 200px;*/
+			background: #16a085;
+			margin: 10px;
+			color: white;
+			font-size: 2em;
+		}
+		/*
+			selector para hijos
+			el primero: first-child;
+			el último: last-child;
+			el especifico: nth-child(2);
+
+			pares: nth-child(even)
+			impares: nth-child(odd)
+		*/
+		/*.padre li:first-child{
+			flex-basis: 45%;
+		}
+		.padre li:nth-child(2){
+			flex-basis: 45%;
+		}*/
+		.padre li:nth-child(even){
+			background: #e74c3c;
+		}
+		.padre li:nth-child(odd){
+			background: #3498db;
+		}
+	</style>
+</head>
+<body>
+	<ul class="padre">
+		<li><i class="fab fa-facebook"></i></li>
+		<li><i class="fab fa-facebook"></i></li>
+		<li><i class="fab fa-facebook"></i></li>
+		<li><i class="fas fa-envelope"></i></li>
+		<li><i class="fas fa-envelope"></i></li>
+		<li><i class="fas fa-envelope"></i></li>
+		<li>7</li>
+		<li>8</li>
+	</ul>
+</body>
+</html>
