@@ -1,0 +1,1069 @@
+*
+	margin: 0
+	padding: 0
+	border: none
+	text-decoration: none
+	list-style: none
+	box-sizing: border-box
+
+@font-face
+	src: url(../fonts/Montserrat.ttf)
+	font-family: "Montserrat"
+
+body
+	font-family: 'Montserrat', sans-serif
+	overflow-x: hidden
+
+/*Seccion inicio*/
+.inicio
+	width: 100%
+	height: 100vh
+	background: url(../imgs/image/img1.png) rgb(155, 89, 182) no-repeat
+	background-position: center top
+	background-size: cover
+	header
+		width: 80%
+		margin: 0 auto
+		padding: 30px
+		.contenedor
+			display: flex
+			flex-flow: row wrap
+			align-items: center
+			justify-content: space-between
+
+.menu 
+	a
+		color: white
+		font-size: 0.8em
+		font-family: Montserrat
+		padding: 20px
+		background: transparent
+		margin: 0.5px
+		border-bottom: 1px solid transparent
+		transition: ease-in-out 0.2s
+		text-transform: uppercase
+	a:hover
+		color: rgb(155, 89, 182)
+
+.textoInicio
+	color: white
+	padding: 100px 0
+	text-align: center 	
+
+.textoInicio h2
+	font-size: 2.5em
+	padding: 30px
+	text-align: center
+
+.textoInicio h2 span
+	color: rgb(160,102,201)
+
+.boton
+	display: flex
+	justify-content: center
+
+.empezar
+	margin: 10px
+	padding: 15px 35px
+	color: white
+	border: 1px solid white
+	border-radius: 5px
+	background: transparent
+
+.recorrido
+	margin: 10px
+	padding: 15px 35px
+	color: white
+	border: 1px solid white
+	border-radius: 5px
+	background: transparent
+
+.empezar:hover
+	background:rgb(117, 61, 157)
+	border: none
+	cursor: pointer
+
+.recorrido:hover
+	background:rgb(117, 61, 157)
+	border: none
+	cursor: pointer
+
+.linea
+	display: flex
+	flex-direction: row
+	justify-content: center
+
+.linea1
+	background: rgb(130, 127, 136)
+	width: 50px
+	height: 3px
+	margin: 30px 5px
+
+.linea2
+	background: rgb(117, 61, 157)
+	width: 50px
+	height: 3px
+	margin: 30px  5px
+
+.linea3
+	background: rgb(130, 127, 136)
+	width: 50px
+	height: 3px
+	margin: 30px  5px
+
+/*Seccion Sobre Nosotros*/
+.sobreNosotros
+	margin: 40px auto
+	display: flex
+	flex-flow: row
+	width: 80%
+
+.textoSN
+	display: flex
+	flex-flow: row wrap
+	width: 80%
+	margin: 0 25px
+	align-items: center
+
+.textoSN h2
+	font-size: 2.5em
+
+.textoSN h2 span
+	color: rgb(117, 61, 157)
+
+.textoSN p
+	margin: 25px 0
+
+.lineaVertical
+	flex-direction: row
+	background: rgb(117, 61, 157)
+	width: 6px
+	height: 80px
+	border-left-width: 10px
+	margin-right: 20px 		
+
+.leerMas
+	padding: 15px 35px
+	border: 1px solid rgb(117, 61, 157)
+	border-radius: 5px
+
+.leerMas:hover
+	color: white
+	background:rgb(117, 61, 157)
+	border: none
+	cursor: pointer
+
+.img2 img
+	margin-right: 10px
+
+/*lineasgrises*/
+.lineaS1
+	background: rgb(165,165,165)
+	width: 100%
+	height: 2px
+	margin: 20px  5px
+
+/*item Servicio*/
+.itemServicio
+	display: flex
+	flex-flow: row nowrap
+	justify-content: space-around
+	width: 90%
+	margin: 0 auto
+
+.itemServicio div
+	display: flex
+
+.itemServicio article
+	text-align: left
+	padding: 60px 35px
+	margin: 0 15px
+	flex-basis: 30%
+
+.itemServicio h4
+	margin: 20px 5px
+
+.itemServicio h4, .itemServicio p
+	text-align: left
+
+.itemServicio h4
+	font-size: 1.5em
+
+/*seccion productos Digitales*/
+.productosDigitales
+	width: 100%
+	height: 60vh
+	background: url(../imgs/image/img3.png) rgb(155, 89, 182) no-repeat
+	background-position: center top
+	background-size: cover
+
+.textoD h2
+	color: white
+	font-size: 3.5em
+	text-align: center
+	padding: 100px 0
+
+.botonLm
+	display: flex
+	justify-content: center
+	padding: 5px 0px
+
+.learnMore
+	margin: 10px
+	padding: 15px 45px
+	color: white
+	border: 1px solid rgb(117, 61, 157)
+	border-radius: 5px
+	background:rgb(117, 61, 157)
+	text-transform: uppercase
+	margin: 10px 0px
+
+.learnMore:hover
+	border: 2px solid white
+	cursor: pointer
+
+/*seccion servicios*/
+.servicios
+	display: flex
+	flex-flow: row wrap
+	justify-content: center
+	margin: 40px
+
+.textoS
+	display: flex
+	width: 80%
+	margin: 0 auto
+	align-items: center
+h2
+	font-size: 2em
+	text-align: left
+
+.lineaV1
+	flex-direction: row
+	background: rgb(117, 61, 157)
+	width: 4px
+	height: 50px
+	border-left-width: 10px
+	margin-right: 20px 			
+
+.servicios .foto
+	margin: 30px 40px 30px 0px
+	flex-basis: 18%
+	cursor: pointer
+	position: relative
+
+.servicios .foto8
+	position: relative
+
+.foto8 img
+	cursor: pointer
+	margin: 12px 40px 20px 12px
+	width: 580px
+	height: 350px
+	vertical-align:middle
+
+.foto8 h4
+	text-transform: uppercase
+	color: white
+	font-size: 1.2em
+	position: absolute
+	bottom: 20px
+	left: 25px
+
+.foto img
+	width: 100%
+	vertical-align:middle
+	height: 100%
+
+.foto h4
+	text-transform:uppercase
+	color: white
+	font-size: 1.2em
+	position: absolute
+	bottom: 0px
+	left: 15px
+
+.allServices
+	margin: 12px 40px 20px 0
+	width: 420px
+	height: 350px
+	background: rgb(13, 17, 61)
+	border-radius: 5px
+	display: flex
+	flex-flow: row wrap
+
+.allServices .lineaH
+	background: white
+	margin: 0% 0% 35% 40%
+	width: 100px
+	height: 3px
+
+.allServices h3
+	text-transform: uppercase
+	color: white
+	font-size: 1.5em
+	margin: 50% 2% 5% 40%
+
+.allServices:hover
+	cursor: pointer
+	background: rgb(117, 61, 157)
+
+/*Seccion support*/
+.support
+	margin: 0 auto
+	display: flex
+	with: 60%
+
+.support h2
+	text-transform: capitalize
+	font-size: 2.5em
+
+.support h2, .support p
+	margin-bottom: 20px
+	color: rgb(13, 17, 61)
+	text-align: left
+
+.support h2, .support p
+	margin-left: 40%
+
+.support ul
+	margin-left: 40%
+	color: rgb(165,165,165)
+
+.support ul li::before
+	content: "•"
+	padding-right: 8px
+	color: rgb(165,165,165)
+
+.mujer img
+	margin-left: 150px
+
+/* Seccion contactenos*/
+.contactenos
+	display: flex
+	flex-flow: row
+	width: 100%
+	height: 20vh
+	background: rgb(117, 61, 157)
+	background-position: center top
+	background-size: cover
+
+.contactenos h2
+	color: white
+	font-size: 2em
+	margin: 44px 80px 40px 80px
+
+.bContact
+	margin: 30px
+
+.contact
+	margin: 10px
+	padding: 15px 35px
+	color: white
+	border: 1px solid white
+	border-radius: 5px
+	background: transparent
+
+.contact:hover
+	background: white
+	color:rgb(117, 61, 157)
+	cursor: pointer
+
+/*Seccion Portafolio*/
+.portafolio
+	display: flex
+	flex-flow: row wrap
+	width: 75%
+	margin: 40px 60px
+	justify-content: center
+
+.textoPt
+	display: flex
+	width: 71%
+	margin: 0 auto
+	align-items: center
+h2
+	font-size: 2em
+	text-align: left
+	text-transform: uppercase
+
+.lineaV2
+	flex-direction: row
+	background: rgb(117, 61, 157)
+	width: 4px
+	height: 50px
+	border-left-width: 10px
+	margin-right: 20px 	
+
+.flechas
+	display: flex
+	right: 100px
+
+.flecha1
+	margin-right: 20px
+
+.flechas:hover
+	cursor: pointer
+
+.foto
+	margin: 20px 10px
+	align-items: center
+	flex-basis: 27%
+
+/*Seccion blog*/
+.blog
+	margin: 40px
+
+.textoB
+	display: flex
+	width: 80%
+	margin: 0 auto
+	align-items: center
+
+.textoB h2
+	font-size: 2em
+	text-align: left
+	text-transform: uppercase
+
+.lineaV3
+	flex-direction: row
+	background: rgb(117, 61, 157)
+	width: 4px
+	height: 50px
+	border-left-width: 10px
+	margin-right: 20px 		
+
+.texto1
+	text-transform: capitalize
+	color:  rgb(117, 61, 157)
+	font-weight: 700
+
+.texto2
+	color: rgb(165,165,165)
+span
+	color:rgb(165,165,165)
+
+.texto3
+	color: rgb(13,17,71)
+	font-weight: 500
+
+.tabla
+	width: 90%
+	margin: 20px auto
+	border-collapse: collapse
+	border-spacing: 0
+table
+	display: table
+tbody
+	display: table-row-group
+	vertical-align: middle
+	border-color: inherit
+
+.tabla tbody tr
+	line-height: 60px
+
+.tabla tbody tr .texto1
+	text-transform: capitalize
+	color: rgb(117, 61, 157)
+	font-weight: 700
+
+.tabla tbody tr td
+	transition: ease-in-out 0.2s
+
+.texto3
+	color: rgb(13, 17, 71)
+	font-weight: 500
+
+td, th
+	display: table-cell
+	vertical-align: inherit
+
+.tabla tbody tr:hover td
+	color: white
+	background: rgb(117, 61, 157)
+
+/*Seccion formulario*/
+footer
+	width: 100%
+	margin: 0 auto
+
+.seccionFinal
+	background: rgb(13, 17, 61)
+	display: flex
+	flex-flow: row wrap
+
+#registro
+	display: flex
+	width: 80%
+	margin: 0 auto
+	background: rgb(117, 61, 157)
+
+.textoR
+	text-align: left
+	color: white
+	margin: 20px 20px
+
+.textoR h1
+	font-size: 1em
+	text-transform: uppercase
+
+.textoR p
+	text-transform: capitalize
+	margin: 8px 0 0 0
+
+.botonS
+	display: flex
+	justify-content: center
+
+.suscribete
+	text-transform: uppercase
+	margin: 3px 10px 0px 35px
+	padding: 10px 35px
+	color: white
+	border: 1px solid white
+	background: transparent
+
+.suscribete:hover
+	background: white
+	color: rgb(117, 61, 157)
+	cursor: pointer
+
+#registro .caja
+	margin: 20px
+	width: 65%
+	display: flex
+
+#registro .caja input
+	width: 100%
+	padding: 0px 70px
+	font-size: 1em
+	border-radius: 10px
+	background: transparent
+	border: 1px solid white
+
+.contenedorF1
+	width: 80%
+	display: flex
+	margin: 0 auto
+
+.textoF1
+	width: 50%
+	margin: 30px 0
+
+.textoF1 p
+	margin: 30px 0
+	color: white
+	text-align: left
+
+.menuVertical
+	width: 50%
+	margin: 0 auto
+ul .menuV
+	list-style: none
+	margin: 0
+	padding: 0
+
+.menuV
+	display: flex
+	margin: 0 auto
+
+.navMenu1
+	width: 20%
+	margin: 30px 20px
+
+.navMenu2
+	width: 23%
+	margin: 30px 20px
+
+.navMenu3
+	width: 20%
+	margin: 30px 20px
+li
+	margin: 28px 0px
+
+.menuVertical a
+	color: white
+	font-size: 0.8em
+	font-family: sans-serif
+	padding: 10px
+	background: transparent
+	margin: 0.5px
+	border-bottom: 1px solid transparent
+	transition: ease-in-out 0.2s
+	text-transform: uppercase
+
+.menuVertical a:hover
+	color: rgb(155, 89, 182)
+
+.piepagina
+	width: 80%
+	display: flex
+	flex-flow: row wrap
+	margin: 0 auto
+	flex-direction: row-reverse
+
+.iconoS
+	display: flex
+	flex-direction: row-reverse
+	margin: 20px 30px
+
+.social
+	margin: 0 15px
+
+/* Inicio responsive table*/
+
+@media screen and (max-width: 780px)
+	/*Seccion inicio*/
+	.contenedor img
+		margin: 0 auto
+		margin-bottom: 20px
+	.menu a
+		color: white
+		font-size: 0.8em
+		font-family: Montserrat
+		padding: 10px
+		background: transparent
+		margin: 0.5px 6px
+		border-bottom: 1px solid transparent
+		transition: ease-in-out 0.2s
+		text-transform: uppercase
+	.textoInicio
+		padding: 80px 0
+	.textoInicio h2
+		font-size: 2em
+		padding: 20px
+		text-align:center
+	/*Seccion sobre nosotros*/
+	.sobreNosotros
+		margin: 10px auto
+		display: flex
+		flex-direction: row
+		width: 90%
+	.textoSN
+		display: flex
+		flex-flow: row wrap
+		width: 60%
+		margin: 0 25px
+		align-items: center
+	.textoSN h2
+		font-size: 1.8em
+	.textoSN p
+		font-size: 0.8em
+		margin: 18px 0
+	.lineaVertical
+		width: 4px
+		height: 65px
+		margin-right: 5px 	
+	.leerMas
+		margin: 5px 20px
+		padding: 12px 30px
+		border: 1px solid rgb(117, 61, 157)
+		border-radius: 5px
+	.img2 img
+		width: 100%
+	/*item Servicio*/
+	.itemServicio
+		display: flex
+		flex-flow: row nowrap
+		justify-content: space-around
+		width: 80%
+		margin: 0 auto
+	.itemServicio p
+		font-size: 0.8em
+	.itemServicio h4
+		font-size: 1em
+	/*seccion productos Digitales*/
+	.textoD h2
+		color: white
+		font-size: 2.5em
+		text-align: center
+		padding: 60px 20px
+	/*seccion servicios*/
+	.servicios
+		margin: 20px
+	h2
+		font-size: 1.5em
+	.servicios .foto
+		margin: 30px 20px 15px 0px
+	.foto8 img
+		margin-right: 5px
+		width: 300px
+		height: 210px
+		vertical-align: middle
+	.foto8 h4
+		font-size: 0.8em
+		bottom: 20px
+		left: 25px
+	.foto h4
+		font-size: 0.8em
+		left: 5px
+	.allServices
+		margin-left: 5px
+		width: 280px
+		height: 210px
+		background: rgb(13, 17, 61)
+		border-radius: 5px
+		display: flex
+		flex-flow: row wrap
+	.allServices h3
+		font-size: 1em
+	/*Seccion support*/
+	.support
+		margin: 20px
+		display: flex
+		with: 60%
+	.support h2
+		text-transform: capitalize
+		font-size: 2em
+	.support h2, .support p
+		margin-left: 10%
+	.support p, .support li
+		font-size: 0.9em
+	.support ul
+		margin-left: 10%
+	.mujer img
+		margin-left: 40px
+	/* Seccion contactenos*/
+	.contactenos h2
+		color: white
+		font-size: 1.1em
+		margin: 40px 30px
+	.bContact
+		margin: 10px
+	.contact
+		margin: 20px 10px
+		padding: 15px
+	/*Seccion portafolio*/
+	.textoPt
+		width: 80%
+	h2
+		font-size: 1.8em
+	.foto
+		flex-basis: 28%
+	/*Seccion blog*/
+	.blog
+		margin: 40px
+	.textoB
+		width: 90%
+	.textoB h2
+		font-size: 2em
+	.texto1
+		font-weight: 600
+		font-size: 0.8em
+	.texto2
+		font-size: 0.8em
+	.texto3
+		font-weight: 500
+		font-size: 0.8em
+	.tabla tbody tr
+		line-height: 30px
+	/*Seccion formulario*/
+	#registro
+		width: 85%
+	.textoR
+		margin: 20px 0px 20px 15px
+	.textoR h1
+		font-size: 0.9em
+		text-transform: uppercase
+	.textoR p
+		font-size: 0.7em
+		margin: 8px 0 0 0
+	.suscribete
+		width: 100%
+		height: 40px
+		margin: 0px 10px
+		padding: 0px 10px
+	#registro .caja
+		margin: 22px 10px
+		width: 65%
+		display: flex
+	#registro .caja input
+		width: 100%
+		height: 30px
+		padding: 5px 10px
+		font-size: 1em
+		border-radius: 8px
+	.contenedorF1
+		width: 85%
+		display: flex
+		margin: 0 auto
+	.textoF1
+		width: 45%
+		margin: 30px 0
+	.textoF1 p
+		font-size: 0.8em
+		margin: 15px 0
+	.menuVertical
+		width: 50%
+		margin: 0 auto
+	.navMenu1
+		width: 20%
+		margin: 20px 5px
+		font-size: 0.8em
+	.navMenu2
+		width: 28%
+		margin: 20px 5px
+		font-size: 0.8em
+	.navMenu3
+		width: 20%
+		margin: 20px 5px
+		font-size: 0.8em
+	.menuVertical a
+		color: white
+		font-size: 0.8em
+		font-family: sans-serif
+		padding: 5px
+		background: transparent
+		margin: 0.5px
+		border-bottom: 1px solid transparent
+		transition: ease-in-out 0.2s
+		text-transform: uppercase
+	li
+		margin: 18px 0px
+	.piepagina
+		width: 85%
+	.iconoS
+		margin: 0px 30px 10px 30px
+	.social
+		margin: 0 15px
+
+/*Responsi celular*/
+@media screen and (max-width: 425px)
+	/*Seccion Inicio*/
+	.iconoMenu div
+		width: 40px
+		height: 3px
+		background: white
+		margin: 5px
+	.menu a
+		display: none
+	.contenedor img
+		margin: 5px 0 0 10px
+	.textoInicio
+		color: white
+		padding: 60px 10px
+	.textoInicio h2
+		font-size: 1.8em
+		padding: 28px 0
+	/*Seccion Sobre Nosotros*/
+	.sobreNosotros
+		margin: 20px
+		display: flex
+		flex-flow: row wrap
+		width: 80%
+	.textoSN
+		display: flex
+		flex-flow: row wrap
+		width: 90%
+		margin: 0 20px
+		align-items: center
+	.textoSN h2
+		font-size: 2em
+	.textoSN p
+		margin: 20px 0
+	.lineaVertical
+		width: 4px
+		height: 80px
+		border-left-width: 10px
+		margin-right: 2px 		
+	.img2 img
+		display: none
+	/*item Servicio*/
+	.itemServicio
+		display: flex
+		flex-flow: column wrap
+		justify-content: space-around
+		width: 90%
+		margin: 0 auto
+	.itemServicio div
+		display: flex
+	.itemServicio article
+		text-align: left
+		padding: 40px 25px
+		margin: 0 auto
+		flex-basis: 50%
+	/*seccion productos Digitales*/
+	.productosDigitales
+		width: 100%
+		height: 60vh
+		background: url(../imgs/image/img3.png) rgb(155, 89, 182) no-repeat
+		background-position: center top
+		background-size: cover
+	.textoD h2
+		color: white
+		font-size: 1.8em
+		text-align: center
+		padding: 80px 0px 50px 0
+	/*Seccion Servicios*/
+	.servicios
+		flex-flow:row wrap
+		margin: 20px
+	h2
+		font-size: 1.5em
+	.lineaV1
+		margin-right: 10px 			
+	.servicios .foto
+		margin: 10px
+		flex-basis: 40%
+	.foto8 img
+		cursor: pointer
+		margin: 12px 10px
+		width: 320px
+		height: 200px
+		vertical-align:middle
+	.foto8 h4
+		font-size: 0.8em
+		bottom: 20px
+		left: 15px
+	.foto h4
+		font-size: 0.8em
+		left: 5px
+	.allServices
+		margin: 12px 10px
+		width: 320px
+		height: 240px
+	.allServices .lineaH
+		width: 80px
+		height: 2px
+	.allServices h3
+		font-size: 1em
+	/*Seccion support*/
+	.support h2
+		font-size: 2em
+	.support h2, .support p
+		margin-left: 5%
+	.support ul
+		margin-left: 5%
+	.support li
+		margin: 8px
+	.mujer img
+		display: none
+	/* Seccion contactenos*/
+	.contactenos h2
+		text-align: center
+		font-size: 0.8em
+		margin: 30px 20px
+	.bContact
+		margin: 20px
+	.contact
+		margin: 5px
+		padding: 15px 30px
+		border-radius: 5px
+	/*Seccion Portafolio*/
+	.portafolio
+		width: 90%
+		margin: 20px
+		justify-content: center
+	.textoPt
+		width: 70%
+	h2
+		font-size: 1.8em
+	.lineaV2
+		width: 3px
+		height: 40px
+		margin-right: 5px 	
+	.flecha1
+		margin-right: 10px
+	.foto
+		margin: 10px 10px
+		align-items: center
+		flex-basis: 40%
+	/*Seccion blog*/
+	.blog
+		margin: 20px
+	.textoB
+		display: flex
+		width: 80%
+		margin: 0 auto
+		align-items: center
+	.textoB h2
+		font-size: 1.8em
+	.lineaV3
+		width: 3px
+		height: 40px
+		margin-right: 5px 		
+	.texto1
+		text-transform: capitalize
+		color:  rgb(117, 61, 157)
+		font-weight: 700
+		font-size: 0.6em
+		width: 55%
+	.texto2
+		color: rgb(165,165,165)
+		font-size: 0.6em
+		width: 20%
+	.texto3
+		color: rgb(13,17,71)
+		font-weight: 500
+		font-size: 0.6em
+		width: 20%
+	.tabla tbody tr
+		line-height: 30px
+	/*Seccion formulario*/
+	footer
+		width: 100%
+		margin: 0 auto
+	.seccionFinal
+		background: rgb(13, 17, 61)
+		display: flex
+		flex-flow: row wrap
+	#registro
+		display: flex
+		width: 95%
+		margin: 0 auto
+		background: rgb(117, 61, 157)
+	.textoR
+		text-align: left
+		color: white
+		margin: 10px 5px
+		width: 30%
+	.textoR h1
+		font-size: 0.7em
+	.textoR p
+		font-size: 0.5em
+	.suscribete
+		text-transform: uppercase
+		margin: 0px 5px
+		padding: 3px 10px
+
+#registro .caja
+	margin: 10px 5px
+
+#registro .caja input
+	width: 100%
+	padding: 0px 6px
+	font-size: 0.6em
+	border-radius: 10px
+	background: transparent
+	border: 1px solid white
+
+.contenedorF1
+	width: 80%
+	flex-flow: row wrap
+
+.textoF1
+	width: 80%
+	margin: 30px 0
+
+.textoF1 p
+	margin: 10px 0 0 0
+
+.menuVertical
+	width: 100%
+
+.navMenu1
+	width: 30%
+	margin: 0px 10px
+
+.navMenu2
+	width: 50%
+	margin: 0px 10px
+
+.navMenu3
+	width: 30%
+	margin: 0px 10px
+li
+	margin: 28px 0px
+
+.social
+	margin: 0 10px
